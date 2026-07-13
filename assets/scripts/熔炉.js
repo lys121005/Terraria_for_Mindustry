@@ -9,7 +9,6 @@ const furnace = library.MultiCrafter(
         {
             input: {
                 items: ["泰拉世纪工厂-铜矿/5"],
-                liquids: [],
             },
             output: {
                 items: ["copper/1"],

@@ -1,6 +1,7 @@
 {
     "type": "tank",
     "name": "铜兵",
+    "description":"由铜锭制成的小型兵种",
     "treadRects": [
         {
             "type": "Rect",
