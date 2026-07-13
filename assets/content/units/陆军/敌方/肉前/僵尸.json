@@ -18,7 +18,7 @@
       "name": "僵尸1",
       "shootSound": "shootFlame",
       "rotationLimit":25,
-      "x": 9,
+      "x": -17,
       "y": 0,
       "shootY": 5,
       "top": false,
