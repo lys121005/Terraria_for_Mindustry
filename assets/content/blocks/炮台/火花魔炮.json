@@ -1,0 +1,53 @@
+{
+    "type": "ItemTurret",
+    "name": "火花魔炮",
+    "localizedName": "火花魔炮",
+    "description": "发射火花",
+    "category": "turret",
+    "size": 1,
+    "health": 100,
+    "reload": 26,
+    "range": 220,
+    "rotateSpeed": 3,
+    "recoil": 0,
+    "requirements":[
+        "木头/15",
+        "魔锭/15"
+    ],
+    "shootSound": "shootFlamePlasma",
+    "hasPower": false,
+    "targetAir": true,
+    "targetGround": true,
+    "ammoTypes": {
+        "木头": {
+            "type": "BasicBulletType",
+            "width": 12,
+            "height": 16,
+            "speed": 4,
+            "lifetime": 60,
+            "damage": 9,
+            "sprite": "泰拉世纪工厂-火花",
+            "ammoMultiplier": 5,
+            "trailChance": 1,
+            "trailEffect": {
+              "type": "ParticleEffect",
+              "length": 30,
+              "lifetime": 15,
+              "sizeFrom": 5,
+              "sizeTo": 1,
+              "region": "泰拉世纪工厂-粒子特效1",
+              "colorFrom": "FF0000FF",
+              "colorTo": "FF8D8DFF"
+            }
+        }
+    },
+    "shootX": 0,
+    "shootY": 6,
+    "research": {
+        "parent": "炮台",
+        "requirements": [
+            "木头/6",
+            "魔锭/6"
+        ]
+    }
+}

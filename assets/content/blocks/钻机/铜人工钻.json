@@ -1,0 +1,26 @@
+{
+    "type": "BeamDrill",
+    "category": "production",
+    "description": "挖掘基础矿物",
+    "name":"铜人工钻",
+    "requirements": [
+        "copper/8"
+    ],
+    "itemCapacity": 20,
+    "size":2,
+    "health":245,
+    "tier":1,
+    "blockedItems":[
+        "graphite"
+    ],
+    "range":6,
+    "fogRadius": 5,
+    "drillTime":23,
+    "hasShadow":true,
+    "research": {
+        "parent": "掘石机",
+        "requirements": [
+            "copper/8"
+        ]
+    }
+}

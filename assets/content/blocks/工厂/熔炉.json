@@ -1,0 +1,41 @@
+{
+    "name": "熔炉",
+    "description": "将各种矿石熔炼成锭。",
+    "size": 3,
+    "health": 900,
+    "itemCapacity": 100,
+    "hasItems": true,
+    "hasLiquids": false,
+    "hasPower": false,
+    "consumesPower": false,
+    "outputsPower": false,
+    "updateEffectChance": 0.05,
+    "requirements": [
+        { "item": "石头", "amount": 30 }
+    ],
+    "category": "crafting",
+    "configurable": true,
+    "saveConfig": true,
+    "drawer": {
+        "type": "DrawMulti",
+        "drawers": [
+            "DrawDefault",
+            {
+                "type": "DrawFlame",
+                "color": "FFFFFFFF",
+                "flameRadius": 5,
+                "flameRadiusIn": 3.5,
+                "flameRadiusMag": 1.5,
+                "flameRadiusInMag": 1.5,
+                "ambientSound": "smelter",
+                "ambientSoundVolume": 0.07
+            }
+        ]
+    },
+    "research": {
+        "parent": "天启核心",
+        "requirements": [
+            "石头/50"
+        ]
+    }
+}

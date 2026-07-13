@@ -1,0 +1,44 @@
+{
+    "type": "ItemTurret",
+    "name": "钨能量炮",
+    "localizedName": "钨能量炮",
+    "description": "发射大量闪电",
+    "category": "turret",
+    "requirements": [
+        "钨锭/8"
+    ],
+    "shoot": {
+        "type": "ShootAlternate",
+        "shots": 30,
+        "burstSpacing": 0,
+        "barrelSpacing":3
+    },
+    "research": {
+        "parent": "炮台",
+        "requirements": [
+            "钨锭/6"
+        ]
+    },
+    "size": 1,
+    "maxAmmo":30,
+    "scaledHealth": 100,
+    "inaccuracy": 0,
+    "shootY": 5,
+    "reload": 11,
+    "recoil": 0,
+    "range": 160,
+    "rotateSpeed": 5,
+    "targetAir": true,
+    "targetGround": true,
+    "ammoTypes": {
+        "钨锭": {
+            "type": "LightningBulletType",
+            "damage": 5,
+            "pierceCap": 999999,
+            "lifetime": 15,
+            "lightningLength": 20,
+            "pierceBuilding": true,
+            "buildingDamageMultiplier": 0.1
+        }
+    }
+}

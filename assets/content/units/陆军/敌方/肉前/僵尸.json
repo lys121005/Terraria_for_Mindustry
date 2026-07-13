@@ -1,0 +1,50 @@
+{
+  "type": "mech",
+  "name": "僵尸",
+  "description": "双炮喷火的敌方陆军单位",
+  "health": 45,
+  "speed": 0.55,
+  "hitSize": 16,
+  "armor": 6,
+  "flying": false,
+  "kamikaze": false,
+  "targetAir": true,
+  "targetGround": true,
+  "range": 40,
+  "reload": 45,
+  "ammoType": "coal",
+  "weapons": [
+    {
+      "name": "僵尸1",
+      "shootSound": "shootFlame",
+      "rotationLimit":25,
+      "x": 9,
+      "y": 0,
+      "shootY": 5,
+      "top": false,
+      "recoil": 0.3,
+      "rotate": true,
+      "mirror": true,
+      "inaccuracy": 0,
+      "bullet": {
+        "type": "bullet",
+        "damage": 14,
+        "speed": 0,
+        "lifetime": 0,
+        "pierce": true,
+        "pierceBuilding": true,
+        "frontColor": "D1D68AFF",
+        "backColor": "D1D68A80",
+        "shootEffect":"shootSmallFlame",
+        "hitEffect":"hitFlameSmall",
+        "despawnEffect": "none",
+        "width": 4,
+        "height": 4,
+        "collidesAir": true,
+        "collidesGround": true,
+        "keepVelocity": false
+      }
+    }
+  ],
+  "shootSound": "shootFlame"
+}

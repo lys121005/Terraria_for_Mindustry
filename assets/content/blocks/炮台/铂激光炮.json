@@ -1,0 +1,37 @@
+{
+    "type": "ItemTurret",
+    "name": "铂激光炮",
+    "localizedName": "铂激光炮",
+    "description": "超快的射出激光",
+    "outlineWidth": 0.01,
+    "category": "turret",
+    "requirements":[
+        "铂金锭/6"
+    ],
+    "ammoTypes":{
+        "铂金锭":{
+            "type": "LaserBulletType",
+            "length": 85,
+            "damage": 13,
+            "ammoMultiplier": 2,
+            "width": 17.0,
+            "reloadMultiplier": 1,
+            "toColor": "B5C2D9FF"
+        }
+    },
+    "shootSound": "shootLocus",
+    "recoil": 0.5,
+    "shootY": 3,
+    "reload": 10,
+    "range": 85,
+    "shootCone": 15.0,
+    "health": 100,
+    "inaccuracy": 0,
+    "rotateSpeed": 3,
+    "research": {
+        "parent": "炮台",
+        "requirements": [
+            "铂金锭/6"
+        ]
+    }
+}

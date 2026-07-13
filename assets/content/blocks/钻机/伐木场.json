@@ -1,0 +1,26 @@
+{
+    "type": "BeamDrill",
+    "category": "production",
+    "description": "挖掘基础木头",
+    "name":"伐木场",
+    "requirements": [
+        "copper/8"
+    ],
+    "itemCapacity": 20,
+    "size":2,
+    "health":245,
+    "tier":0,
+    "blockedItems":[
+        "sand"
+    ],
+    "range":6,
+    "fogRadius": 1,
+    "drillTime":23,
+    "hasShadow":true,
+    "research": {
+        "parent": "Boss前",
+        "requirements": [
+            "木头/8"
+        ]
+    }
+}
