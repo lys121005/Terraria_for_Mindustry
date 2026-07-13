@@ -1,0 +1,31 @@
+{
+    "type": "CoreBlock",
+    "name": "天启核心",
+    "localizedName": "天启核心",
+    "description": "",
+    "size": 4,
+    "health": 3200,
+    "itemCapacity": 10000,
+    "category": "core",
+    "requirements": [
+        { "item": "copper", "amount": 100 }
+    ],
+    "thrusterLength": 3.5,
+    "thrusterOffset": 0.0,
+    "isFirstTier": true,
+    "allowSpawn": true,
+    "requiresCoreZone": false,
+    "incinerateNonBuildable": false,
+    "unitType": "空尘",
+    "landDuration": 300.0,
+    "landZoomInterp": "pow3",
+    "landZoomFrom": 0.02,
+    "landZoomTo": 4.0,
+    "captureInvicibility": 900.0,
+    "research": {
+        "parent": null,
+        "requirements": [
+            "copper/200"
+        ]
+    }
+}

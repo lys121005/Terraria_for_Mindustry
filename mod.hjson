@@ -2,13 +2,13 @@
 displayName: "泰拉世纪工厂"
 
 #the internal name of your mod
-name: "泰拉世纪工厂"
+name: "Terraria_for_Mindustry"
 
 #your name
 author: "万象终极无尽星空(B站)"
 
 #the fully qualified main class of the mod
-main: "tfm.TerrariaMod"
+main: "Terraria.TerrariaMod"
 
 #the mod description as seen in the mod dialog
 description: ""

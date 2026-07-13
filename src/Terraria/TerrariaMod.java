@@ -1,4 +1,4 @@
-package tfm;
+package Terraria;
 
 import arc.*;
 import arc.util.*;
