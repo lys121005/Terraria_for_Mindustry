@@ -6,7 +6,6 @@
     "size": 4,
     "health": 3200,
     "itemCapacity": 10000,
-    "category": "effect",
     "requirements": [
         { "item": "copper", "amount": 100 }
     ],
