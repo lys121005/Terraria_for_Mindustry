@@ -8,7 +8,7 @@ name: "泰拉世纪工厂"
 author: "万象终极无尽星空(B站)"
 
 #the fully qualified main class of the mod
-main: "tfm.TestMod"
+main: "tfm.TerrariaMod"
 
 #the mod description as seen in the mod dialog
 description: ""
