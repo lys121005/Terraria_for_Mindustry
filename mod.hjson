@@ -8,7 +8,7 @@ name: "TerrariaforMindustry"
 author: "万象终极无尽星空(B站)"
 
 #the fully qualified main class of the mod
-main: "Terraria.TerrariaMod"
+main: "MultiCraft.MultiCraftMod"
 
 #the mod description as seen in the mod dialog
 description: ""
