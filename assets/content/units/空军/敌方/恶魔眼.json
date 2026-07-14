@@ -38,7 +38,7 @@
 "shootEffect": {
 "followParent": true,
 "type": "ParticleEffect",
-"region": "泰拉世纪工厂-冲刺",
+"region": "TerrariaforMindustry-冲刺",
 "particles": 1,
 "lifetime": 20,
 "length": 1,

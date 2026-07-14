@@ -179,7 +179,7 @@
                     {
                         "type": "ParticleEffect",
                         "particles": 1,
-                        "region": "泰拉世纪工厂-冲击波3",
+                        "region": "TerrariaforMindustry-冲击波3",
                         "lifetime": 60,
                         "length": 0,
                         "baseLength": 0,
@@ -193,7 +193,7 @@
                     {
                         "type": "ParticleEffect",
                         "particles": 1,
-                        "region": "泰拉世纪工厂-冲击波1",
+                        "region": "TerrariaforMindustry-冲击波1",
                         "lifetime": 60,
                         "length": 0,
                         "baseLength": 0,
@@ -207,7 +207,7 @@
                     {
                         "type": "ParticleEffect",
                         "particles": 1,
-                        "region": "泰拉世纪工厂-冲击波2",
+                        "region": "TerrariaforMindustry-冲击波2",
                         "lifetime": 60,
                         "length": 0,
                         "baseLength": 0,

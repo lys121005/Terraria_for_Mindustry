@@ -142,7 +142,7 @@
               "length": 0,
               "interp": "bounceOut",
               "lifetime": 50,
-              "region": "泰拉世纪工厂-爆炸1", // 自定义贴图
+              "region": "TerrariaforMindustry-爆炸1", // 自定义贴图
               "lightColor": "58E4F5",
               "colorFrom": "58E4F5",
               "colorTo": "92ABFFFF",

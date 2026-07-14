@@ -74,7 +74,7 @@
                 "effects": [
                     {
                         "type": "ParticleEffect",
-                        "region": "泰拉世纪工厂-小空间撕裂",
+                        "region": "TerrariaforMindustry-小空间撕裂",
                         "length": 0,
                         "particles": 1,
                         "lifetime": 15,
@@ -93,7 +93,7 @@
                 "effects": [
                     {
                         "type": "ParticleEffect",
-                        "region": "泰拉世纪工厂-空间裂缝",
+                        "region": "TerrariaforMindustry-空间裂缝",
                         "length": 0,
                         "sizeFrom":80,
                         "sizeTo":0,
