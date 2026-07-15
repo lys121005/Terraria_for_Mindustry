@@ -28,3 +28,4 @@ newItem("铂金锭");
 // 新增：对应合成出的腥红锭与魔锭
 newItem("腥红锭");
 newItem("魔锭");
+newItem("魔金");

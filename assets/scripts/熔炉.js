@@ -8,7 +8,7 @@ const furnace = library.MultiCrafter(
     [
         {
             input: {
-                items: ["TerrariaforMindustry-铜矿/5"],
+                items: ["泰拉世纪工厂-铜矿/5"],
                 liquids: [],
             },
             output: {
@@ -19,27 +19,27 @@ const furnace = library.MultiCrafter(
        
         {
             input: {
-                items: ["TerrariaforMindustry-锡矿/3"],
+                items: ["泰拉世纪工厂-锡矿/3"],
             },
             output: {
-                items: ["TerrariaforMindustry-锡锭/1"],
+                items: ["泰拉世纪工厂-锡锭/1"],
             },
             craftTime: 5,
         },
         
         {
             input: {
-                items: ["TerrariaforMindustry-铁矿/3"],
+                items: ["泰拉世纪工厂-铁矿/3"],
             },
             output: {
-                items: ["TerrariaforMindustry-铁锭/1"],
+                items: ["泰拉世纪工厂-铁锭/1"],
             },
             craftTime: 5,
         },
         
         {
             input: {
-                items: ["TerrariaforMindustry-铅矿/3"],
+                items: ["泰拉世纪工厂-铅矿/3"],
             },
             output: {
                 items: ["lead/1"],
@@ -49,59 +49,59 @@ const furnace = library.MultiCrafter(
         
         {
             input: {
-                items: ["TerrariaforMindustry-银矿/4"],
+                items: ["泰拉世纪工厂-银矿/4"],
             },
             output: {
-                items: ["TerrariaforMindustry-银锭/1"],
+                items: ["泰拉世纪工厂-银锭/1"],
             },
             craftTime: 5,
         },
         
         {
             input: {
-                items: ["TerrariaforMindustry-钨矿/4"],
+                items: ["泰拉世纪工厂-钨矿/4"],
             },
             output: {
-                items: ["TerrariaforMindustry-钨锭/1"],
+                items: ["泰拉世纪工厂-钨锭/1"],
             },
             craftTime: 5,
         },
         
         {
             input: {
-                items: ["TerrariaforMindustry-金矿/4"],
+                items: ["泰拉世纪工厂-金矿/4"],
             },
             output: {
-                items: ["TerrariaforMindustry-金锭/1"],
+                items: ["泰拉世纪工厂-金锭/1"],
             },
             craftTime: 5,
         },
         
         {
             input: {
-                items: ["TerrariaforMindustry-铂金矿/4"],
+                items: ["泰拉世纪工厂-铂金矿/4"],
             },
             output: {
-                items: ["TerrariaforMindustry-铂金锭/1"],
+                items: ["泰拉世纪工厂-铂金锭/1"],
             },
             craftTime: 5,
         },
         {
             input: {
-                items: ["TerrariaforMindustry-魔矿/3"],
+                items: ["泰拉世纪工厂-魔矿/3"],
             },
             output: {
-                items: ["TerrariaforMindustry-魔锭/1"],
+                items: ["泰拉世纪工厂-魔锭/1"],
             },
             craftTime: 5,
         },
         // 以下为新增的腥红矿与魔矿合成配方
         {
             input: {
-                items: ["TerrariaforMindustry-腥红矿/3"],
+                items: ["泰拉世纪工厂-腥红矿/3"],
             },
             output: {
-                items: ["TerrariaforMindustry-腥红锭/1"],
+                items: ["泰拉世纪工厂-腥红锭/1"],
             },
             craftTime: 5,
         }
